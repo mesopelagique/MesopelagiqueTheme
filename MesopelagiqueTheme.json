@@ -1,0 +1,245 @@
+﻿{
+    "fontName": "Fira Code",
+    "fontSize": 18,
+    "__inheritedFrom__": "defaultDarkTheme",
+    "4D": {
+        "commands": {
+            "color": "#07AFCA",
+            "style": {
+                "bold": true,
+                "italic": false,
+                "underline": true
+            }
+        },
+        "comments": {
+            "color": "#6CC01F",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "constants": {
+            "color": "#BA77FF",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": true
+            }
+        },
+        "errors": {
+            "color": "#FF000F",
+            "style": {
+                "bold": true,
+                "italic": true,
+                "underline": false
+            }
+        },
+        "fields": {
+            "color": "#EDE957",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "indexed-fields": {
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            },
+            "color": "#BCD600"
+        },
+        "interprocess_variables": {
+            "color": "#FF0088",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "keywords": {
+            "color": "#C23499",
+            "style": {
+                "bold": true,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "local_variables": {
+            "color": "#7494FF",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "member": {
+            "color": "#A0806B",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "memberFunc": {
+            "color": "#E27A00",
+            "style": {
+                "bold": false,
+                "italic": true,
+                "underline": false
+            }
+        },
+        "methods": {
+            "color": "#E08E4F",
+            "style": {
+                "bold": true,
+                "italic": true,
+                "underline": false
+            }
+        },
+        "parameters": {
+            "color": "#00D88E",
+            "style": {
+                "bold": true,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "plain_text": {
+            "color": "#F2F2F2",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "plug_ins": {
+            "color": "#FFA8F3",
+            "style": {
+                "bold": true,
+                "italic": true,
+                "underline": false
+            }
+        },
+        "process_variables": {
+            "color": "#848AFF",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": true
+            }
+        },
+        "tables": {
+            "color": "#EB9E54",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "thread-safe-commands": {
+            "color": "#068C00",
+            "style": {
+                "bold": true,
+                "italic": true,
+                "underline": false
+            }
+        },
+        "thread-safe-methods": {
+            "color": "#8000FF",
+            "style": {
+                "bold": true,
+                "italic": true,
+                "underline": false
+            }
+        }
+    },
+    "SQL": {
+        "comparisons": {
+            "color": "#C2C2C2",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "debug": {
+            "color": "#F0BA5F",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "function_keywords": {
+            "color": "#EDA0F1",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "keywords": {
+            "color": "#1826DC",
+            "style": {
+                "bold": true,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "names": {
+            "color": "#B992E0",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "normal": {
+            "color": "#EAEAEA",
+            "style": {
+                "bold": true,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "numbers": {
+            "color": "#5C7DFF",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        },
+        "strings": {
+            "color": "#51EB92",
+            "style": {
+                "bold": false,
+                "italic": false,
+                "underline": false
+            }
+        }
+    },
+    "otherStyles": {
+        "back_color": {
+            "color": "#282B35"
+        },
+        "cursor_line_back_color": {
+            "color": "#6C6C6C"
+        },
+        "cursor_line_color": {
+            "color": "#484848"
+        },
+        "execution_line_back_color": {
+            "color": "#444444"
+        },
+        "execution_line_frame_color": {
+            "color": "#5A5A5A"
+        },
+        "hilite_block_back_color": {
+            "color": "#67696E"
+        }
+    }
+}
