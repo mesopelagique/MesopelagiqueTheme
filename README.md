@@ -11,7 +11,7 @@
 Open a terminal and type
 
 ```bash
-curl -sL https://raw.githubusercontent.com/mesopelagique/MesopelagiqueTheme/main/MesopelagiqueTheme.json -o $HOME/Library/Application\ Support/4D/4DEditorTheme/MesopelagiqueTheme.json
+curl -sL https://raw.githubusercontent.com/mesopelagique/MesopelagiqueTheme/main/MesopelagiqueTheme.json -o $HOME/Library/Application\ Support/4D/4D\ Editor\ Themes/MesopelagiqueTheme.json
 ```
 
 Then select it in 4D preferences.
