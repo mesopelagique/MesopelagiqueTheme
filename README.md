@@ -14,7 +14,7 @@ Open a terminal and type
 curl -sL https://raw.githubusercontent.com/mesopelagique/MesopelagiqueTheme/main/MesopelagiqueTheme.json -o $HOME/Library/Application\ Support/4D/4D\ Editor\ Themes/MesopelagiqueTheme.json
 ```
 
-Then select it in 4D preferences.
+Then select it in 4D v19+ preferences.
 
 ## Others
 
