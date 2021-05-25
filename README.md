@@ -16,6 +16,12 @@ curl -sL https://raw.githubusercontent.com/mesopelagique/MesopelagiqueTheme/main
 
 Then select it in 4D v19+ preferences.
 
+### Without Fira code font
+
+```bash
+curl -sL https://raw.githubusercontent.com/mesopelagique/MesopelagiqueTheme/main/MesopelagiqueTheme-noFont.json -o $HOME/Library/Application\ Support/4D/4D\ Editor\ Themes/MesopelagiqueTheme-noFont.json
+```
+
 ## Others
 
 ### Convert any visual studio code theme to 4D theme
