@@ -1,0 +1,33 @@
+name: check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: install
+        run: |
+          apt-get install validate-json -y -q
+      - name: schema
+        run: |
+          curl -sL https://raw.githubusercontent.com/mesopelagique/VSThemeConverter/master/Resources/themeSchemav19.json -o themeSchema.json
+      - name: check
+        run: |
+           for file in *.json; then
+              if [[ "$file" -eq "themeSchema.json" ]]; then
+                echo "skip schema"
+              else
+                echo $file
+                validate-json $file themeSchema.json
+              fi
+           done
