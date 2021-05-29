@@ -24,7 +24,7 @@ jobs:
       - name: check
         run: |
            for file in *.json; then
-              if [[ "$file" -eq "themeSchema.json" ]]; then
+              if [[ "$file" = "themeSchema.json" ]]; then
                 echo "skip schema"
               else
                 echo $file
