@@ -23,7 +23,7 @@ jobs:
           curl -sL https://raw.githubusercontent.com/mesopelagique/VSThemeConverter/master/Resources/themeSchemav19.json -o themeSchema.json
       - name: check
         run: |
-           for file in *.json; then
+           for file in *.json; do
               if [[ "$file" = "themeSchema.json" ]]; then
                 echo "skip schema"
               else
